@@ -14,7 +14,11 @@ const links = [
   { href: "/services", label: "Services" },
   { href: "/media", label: "Media" },
   { href: "/contact", label: "Contact" },
-  { href: "/donate", label: "Donate", isButton: true },
+  {
+    href: "https://paystack.com/pay/jgacsupport",
+    label: "Donate",
+    isButton: true,
+  },
 ];
 
 const MobileMenu = ({ isOpen, toggleMenu }: MobileMenuProps) => {
