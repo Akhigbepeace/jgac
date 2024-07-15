@@ -11,7 +11,7 @@ const FAQAccordion = () => {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <section className="container mx-auto py-12">
         <h2 className="text-3xl font-bold mb-8 text-center">
           Frequently Asked Questions

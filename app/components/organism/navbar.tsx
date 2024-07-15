@@ -36,12 +36,16 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
 
-        <div className="hidden md:flex space-x-10">
+        <div className="hidden md:flex space-x-5">
           {links.slice(0, -1).map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-primary-dark hover:text-primary text-lg"
+              className={`text-lg px-4 py-2 rounded-md  ${
+                pathName === link.href
+                  ? "font-semibold bg-primary-dark text-white"
+                  : "text-primary-dark hover:bg-purple-100 hover:text-primary-dark"
+              }`}
             >
               {link.label}
             </Link>

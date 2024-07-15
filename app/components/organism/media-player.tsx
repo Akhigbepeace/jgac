@@ -36,10 +36,10 @@ const MediaPlayer = ({ events }: MediaPlayerProps) => {
         // {events .slice(0, 3).map((event, index) => (
         <div
           key={index}
-          className="relative cursor-pointer group overflow-hidden rounded-lg shadow-lg bg-[#000000ab]"
+          className="relative cursor-pointer group overflow-hidden rounded-lg shadow-lg bg-[#000000da]"
           onClick={() => openModal(event)}
         >
-          <div className="relative w-full h-64  bg-[#000000ab]">
+          <div className="relative w-full h-64  bg-[#000000da]">
             <Image
               src={event.thumbnail}
               alt={event.title}

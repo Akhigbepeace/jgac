@@ -6,7 +6,7 @@ import History from "../components/molecules/about/history";
 import Mission from "../components/molecules/about/msision";
 
 const About = () => {
-  const aboutBgImage = "/assets/images/welcome-to-church.jpg";
+  const aboutBgImage = "/assets/images/church-building.jpg";
   return (
     <>
       <Banner bgImage={aboutBgImage} page="About" />
