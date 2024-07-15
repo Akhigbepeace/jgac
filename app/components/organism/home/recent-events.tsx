@@ -5,7 +5,7 @@ const events: EventCard[] = [
   {
     title: "Ruby Jubilee",
     mediaUrl: "/assets/videos/bronze-jubilee.mp4",
-    thumbnail: "/assets/images/join-us-for-worship.jpg",
+    thumbnail: "/assets/images/ruby-anniversary.jpeg",
     description: "Highlights from our 40th Founder's Anniversary celebration.",
     date: "June 30, 2024",
   },

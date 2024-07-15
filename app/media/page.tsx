@@ -36,7 +36,7 @@ const Section = (props: SectionProps) => {
                   alt={person.name}
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-t-lg"
+                  className="rounded-t-lg object-top"
                 />
               </div>
               <h3 className="text-xl font-bold mt-4">{person.name}</h3>

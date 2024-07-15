@@ -19,7 +19,7 @@ export const founders: Person[] = [
 
 export const pastoralTeam: Person[] = [
   {
-    image: "/assets/images/join-us-for-worship.jpg",
+    image: "/assets/images/oladeinde.png",
     name: "Pastor S.A. Oladeinde",
     description: "Senior Pastor",
   },
@@ -53,7 +53,7 @@ export const pastoralTeam: Person[] = [
 export const hodTeam: Person[] = [
   {
     image: "/assets/images/welcome-to-church.jpg",
-    name: "...",
+    name: "Deacon Odeyemi",
     description: "Usher",
   },
   {
